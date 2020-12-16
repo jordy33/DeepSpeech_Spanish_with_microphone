@@ -6,11 +6,21 @@
 pip install deepspeech-0.9.0-cp36-cp36m-linux_aarch64.whl
 ```
 
-* List Devices
-Found your device and check the simple rate
+* Uncompress model
+* git clone this repository and then
+```
+cd models
+cd es
+cat x* > spanish_model.tar.gz
+tar -vxf spanish_model.tar.gz
+cd ../../
+```
+
+* Execute translation
+Will ask for device, sample rate of the device and the language (pick spanish)
 use:
 ```
-python3 list_devices.py 
+python3 mic_vad_streaming.py 
 ```
 
 Get the device id by example: my usb card is called pulse adjust the code with your usb card name
