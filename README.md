@@ -13,6 +13,7 @@ git clone https://github.com/jordy33/Jetson-Nano-DeepSpeech-in-Spanish-microphon
 cd Jetson-Nano-DeepSpeech-in-Spanish-microphone 
 ```
 * Install Dependencies
+* Download the file  deepspeech-0.9.0-cp36-cp36m-linux_aarch64.whl from [here](https://github.com/domcross/DeepSpeech-for-Jetson-Nano/releases) and execute the following command
 ```
 pip install deepspeech-0.9.0-cp36-cp36m-linux_aarch64.whl
 ```
