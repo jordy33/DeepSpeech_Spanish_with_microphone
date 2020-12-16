@@ -21,8 +21,8 @@ tar -vxf spanish_model.tar.gz
 cd ../../
 ```
 * Uncompress English model 0.9.0 in ~/models/en
-Download deepspeech-0.9.0-models.pbmm and deepspeech-0.9.0-models.scorer
-from [here](https://github.com/mozilla/DeepSpeech/releases)
+
+* Download deepspeech-0.9.0-models.pbmm and deepspeech-0.9.0-models.scorer from [here](https://github.com/mozilla/DeepSpeech/releases)
 
 * Execute translation
 Will ask for device, sample rate of the device and the language (pick spanish)
