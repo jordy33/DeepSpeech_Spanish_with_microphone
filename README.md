@@ -2,7 +2,11 @@
 
 ![](gif/DeepSpeech.gif)
 
-* git clone this repository and then
+* Software Requirements for the Jetson Nano: The last Jetson Nano SD Card Image
+
+* Hardware Requirements for the Jetson Nano: USB audio card and microphone 
+
+* git clone this repository 
 ```
 cd ~
 git clone https://github.com/jordy33/Jetson-Nano-DeepSpeech-in-Spanish-microphone.git
