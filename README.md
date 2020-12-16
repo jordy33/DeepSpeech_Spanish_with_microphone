@@ -13,13 +13,16 @@ cd Jetson-Nano-DeepSpeech-in-Spanish-microphone
 pip install deepspeech-0.9.0-cp36-cp36m-linux_aarch64.whl
 ```
 
-* Uncompress model
+* Uncompress Spanish model
 ```
 cd models/es
 cat x* > spanish_model.tar.gz
 tar -vxf spanish_model.tar.gz
 cd ../../
 ```
+* Uncompress English model 0.9.0 in ~/models/en
+Download deepspeech-0.9.0-models.pbmm and deepspeech-0.9.0-models.scorer
+from [here](https://github.com/mozilla/DeepSpeech/releases)
 
 * Execute translation
 Will ask for device, sample rate of the device and the language (pick spanish)
@@ -28,17 +31,3 @@ use:
 python3 mic_vad_streaming.py 
 ```
 
-Get the device id by example: my usb card is called pulse adjust the code with your usb card name
-
-Update eng.sh and esp.sh with the device number and sampling rate
-
-To start translation from Microphone voice in spanish to text run:
-
-```
-./esp.sh
-```
-
-To start translation from Microphone voice in english to text run:
-```
-./eng.sh
-```
