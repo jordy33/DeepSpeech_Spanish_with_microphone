@@ -1,16 +1,21 @@
 ### Jetson Nano DeepSpeech in Spanish and English
 
+![](gif/DeepSpeech.gif)
 
+* git clone this repository and then
+```
+cd ~
+git clone https://github.com/jordy33/Jetson-Nano-DeepSpeech-in-Spanish-microphone.git
+cd Jetson-Nano-DeepSpeech-in-Spanish-microphone 
+```
 * Install Dependencies
 ```
 pip install deepspeech-0.9.0-cp36-cp36m-linux_aarch64.whl
 ```
 
 * Uncompress model
-* git clone this repository and then
 ```
-cd models
-cd es
+cd models/es
 cat x* > spanish_model.tar.gz
 tar -vxf spanish_model.tar.gz
 cd ../../
